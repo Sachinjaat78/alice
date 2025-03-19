@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = 22336203
+API_HASH = "a4a1652608b46bb6890ef05d2bed44f0"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "7758506642:AAEmmfxq6rmN4TTZl0o1Pt33SbOmiTCIai8"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://Sachin:Sachin@cluster0.07s3s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = -4668945198
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = 7111568434
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/thanos_pro"
-SUPPORT_GROUP = "https://t.me/thanosprosss"
+SUPPORT_CHANNEL = "https://t.me/Sachinjaat78"
+SUPPORT_GROUP = "https://t.me/Sachinjaat78"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "STRING_SESSION"
+STRING1 = "BQFU0ssAosV-QwOLZalDswKjn06PQAJQdpSIGW45nKG2F3uvfDn1sGso3YVymGhVBumIL773CRlvtTPoGER-JZFtV2RZfoYBl8SYYtsS22gFjLNUu0CZM5Q21El775KbYZ7kIMs6y0XnASgnhHk9_q7t3YlMwcNK3XUi05MTFlBFgCgJKfenGH4p4YkSzcLoDosx0Dxcc7WRexEqyNAvXFvzFQAG6oU8W0S3JXRNUNiUJP1sRARru5EIkqqQlmIZe2-aOX0Uvzen0RyWDdRtVBwHY_SdqnMYz1Gy6utLR-E9UhCTo827gGjlB1jplzK1uhNSwNIqqA_rTpuHQID6pfTnXxyWKwAAAAGn4ewyAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -77,20 +77,20 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+START_IMG_URL = "https://graph.org/file/895237e1a7d9a1793b0bf-b5ef92e46b92d1bf2f.jpg"
 
-PING_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+PING_IMG_URL = "https://graph.org/file/895237e1a7d9a1793b0bf-b5ef92e46b92d1bf2f.jpg"
 
-PLAYLIST_IMG_URL = "https://graph.org/file/763a841a2ad5cbb1e2fc5.jpg"
-STATS_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/895237e1a7d9a1793b0bf-b5ef92e46b92d1bf2f.jpg"
+STATS_IMG_URL = "https://graph.org/file/895237e1a7d9a1793b0bf-b5ef92e46b92d1bf2f.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/895237e1a7d9a1793b0bf-b5ef92e46b92d1bf2f.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/895237e1a7d9a1793b0bf-b5ef92e46b92d1bf2f.jpg"
+STREAM_IMG_URL = "https://graph.org/file/895237e1a7d9a1793b0bf-b5ef92e46b92d1bf2f.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/895237e1a7d9a1793b0bf-b5ef92e46b92d1bf2f.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/895237e1a7d9a1793b0bf-b5ef92e46b92d1bf2f.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/895237e1a7d9a1793b0bf-b5ef92e46b92d1bf2f.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/895237e1a7d9a1793b0bf-b5ef92e46b92d1bf2f.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/895237e1a7d9a1793b0bf-b5ef92e46b92d1bf2f.jpg"
 
 
 def time_to_seconds(time):
